@@ -6,7 +6,8 @@ def test_suma():
     assert operations.suma(3, 3) == 6
     assert operations.suma(0, 0) == 0
     assert operations.suma(-3, -3) == -6
-    assert operations.suma(-3, -30) == 27
+    ## '''prova de operacio amb error :  assert operations.suma(-3, -30) == 27'''
+    assert operations.suma(-3, -30) == -33
 
 
 def test_resta():
